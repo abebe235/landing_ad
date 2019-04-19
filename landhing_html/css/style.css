@@ -1,0 +1,58 @@
+@charaset= "UTF-8" ;
+
+body {
+/*    background-color: antiquewhite ;*/
+    width: 1300px ;
+    height: 10000px ;
+    margin: 0 auto ;
+    background-image: url(../img/bg.png) ;
+    background-position: center ;
+    background-repeat: no-repeat ;
+    font-family:'Play', sans-serif;
+}
+
+#wrap {
+    margin-top: 350px ;
+}
+ul li {
+    list-style: none ;
+    margin:50px ;
+    text-align: center ;
+}
+
+.floating ul li a{
+    width: 200px ;
+    height: 160px ;
+    top: 50px ;
+    right: 20px ;
+    position: fixed;
+    z-index: 1;
+    text-decoration: none ;
+    font-size: 18px ;
+    background-image: url(../img/Treasure.png)
+}
+
+.floating ul li a:hover{
+    width: 200px ;
+    height: 200px ;
+    top: 50px ;
+    right: 20px ;
+    position: fixed;
+    z-index: 1;
+    text-decoration: none ;
+    font-size: 18px ;
+    background-image: url(../img/Treasure_open.png) ;
+}
+
+#footer {
+    width: 1300px ;
+    height: 200px ;
+    color: #4b1f00 ;
+    margin: 0 auto ;
+    text-align: center ;
+}
+#footer ul li {
+    padding-top:10px ;
+    padding-bottom:10px ;
+}
+
