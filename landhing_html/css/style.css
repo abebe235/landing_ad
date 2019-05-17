@@ -8,6 +8,7 @@ body {
     background-image: url(../img/bg.png) ;
     background-position: center ;
     background-repeat: no-repeat ;
+    background-size: cover ;
     font-family:'Play', sans-serif;
 }
 
@@ -23,8 +24,8 @@ ul li {
 .floating ul li a{
     width: 200px ;
     height: 160px ;
-    top: 50px ;
     right: 20px ;
+    bottom: 30px ;
     position: fixed;
     z-index: 1;
     text-decoration: none ;
@@ -35,8 +36,8 @@ ul li {
 .floating ul li a:hover{
     width: 200px ;
     height: 200px ;
-    top: 50px ;
     right: 20px ;
+    bottom: 30px ;
     position: fixed;
     z-index: 1;
     text-decoration: none ;
